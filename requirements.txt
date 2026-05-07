@@ -1,1 +1,7 @@
-streamlit
+streamlit>=1.38.0
+xrpl-py>=3.0.0
+# Core dependencies (automatically pulled in by above, but pinned for stability)
+requests>=2.32.0
+typing_extensions>=4.0.0
+pandas>=2.2.0
+plotly>=5.24.0
